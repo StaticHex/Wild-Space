@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Fog
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   fogDensity:
     m_OverrideState: 1
     m_Value: 0.62
@@ -23,11 +22,8 @@ MonoBehaviour:
   fogColor:
     m_OverrideState: 1
     m_Value: {r: 0, g: 0, b: 0, a: 1}
-    hdr: 0
-    showAlpha: 1
-    showEyeDropper: 1
   fogNear:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   fogFar:
     m_OverrideState: 0
@@ -37,13 +33,13 @@ MonoBehaviour:
     m_Value: 10
   fogThinning:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 1
   noiseScale:
     m_OverrideState: 1
     m_Value: 500
   noiseStrength:
     m_OverrideState: 1
-    m_Value: 0.07
+    m_Value: 0.1
 --- !u!114 &-3199181267644496941
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -57,45 +53,33 @@ MonoBehaviour:
   m_Name: Bloom
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   threshold:
     m_OverrideState: 1
     m_Value: 0.79
-    min: 0
   intensity:
     m_OverrideState: 1
     m_Value: 2.83
-    min: 0
   scatter:
     m_OverrideState: 1
     m_Value: 0.65
-    min: 0
-    max: 1
   clamp:
     m_OverrideState: 1
     m_Value: 65472
-    min: 0
   tint:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 0
-    showAlpha: 0
-    showEyeDropper: 1
   highQualityFiltering:
     m_OverrideState: 1
     m_Value: 0
   skipIterations:
     m_OverrideState: 1
     m_Value: 1
-    min: 0
-    max: 16
   dirtTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
-    min: 0
 --- !u!114 &-219942777197294516
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -109,7 +93,6 @@ MonoBehaviour:
   m_Name: Dithering
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   patternIndex:
     m_OverrideState: 1
     m_Value: 3
@@ -152,7 +135,6 @@ MonoBehaviour:
   m_Name: Pixelation
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   widthPixelation:
     m_OverrideState: 1
     m_Value: 512

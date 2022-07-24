@@ -12,17 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 4
+  version: 5
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Tank Inner
-  m_Shader: {fileID: -6465566751694194690, guid: 31c328e6025e8bb439a8b3d0af87bcfa, type: 3}
-  m_ShaderKeywords: _EMISSION
+  m_Shader: {fileID: -6465566751694194690, guid: 66a1d5e5bb083024dba5a9752d51a82f, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -33,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_4450AB74:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 171e8c10d1786f9419c54401a177f807, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -92,11 +93,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Boolean_193028D2: 1
     - Boolean_3F1A8DAB: 1
     - Boolean_431f3f9c3817472daebfe9779eedcaf1: 0
     - Boolean_43476D73: 1
+    - Boolean_5505c155052349f7a90b18a823d765b8: 1
     - Boolean_7165A49C: 1
     - Boolean_85059BBE: 1
     - Boolean_8BBF99CD: 1
@@ -106,6 +109,7 @@ Material:
     - Vector1_5933759cc897453e8a220c5beb4ff4da: 1
     - Vector1_6F288C5B: 0
     - Vector1_70b051972c29470492ad03610c759bab: 0
+    - Vector1_79b156e9845d4e40afae6e5a2435d068: 95.6
     - Vector1_B2CC132F: 16
     - Vector1_B9994903: 11
     - Vector1_E8746023: 16
@@ -127,6 +131,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
@@ -139,7 +144,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_2E5415DE: {r: 1, g: 1, b: 1, a: 0}
-    - Color_6121d9f10e8642e4ac56e16278055030: {r: 0.05490196, g: 0.9490196, b: 0.9490196, a: 0}
+    - Color_6121d9f10e8642e4ac56e16278055030: {r: 0, g: 0.1254902, b: 0.1254902, a: 0}
     - Color_63255aa0a70f46c49ac98f459f2c42b2: {r: 0, g: 1, b: 0.99166656, a: 0.5019608}
     - Vector2_8044833E: {r: 1, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 0.3075472, g: 1, b: 0.949446, a: 1}
